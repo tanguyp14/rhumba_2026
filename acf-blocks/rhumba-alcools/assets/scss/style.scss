@@ -1,0 +1,72 @@
+@import "../../../../src/scss/abstracts/all";
+
+.rhumba-alcools {
+  background-image: url("../../../images/alcool.png");
+  background-position-y: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  &__titre {
+    width: fit-content;
+    margin: auto;
+    padding: 20px 0;
+    color: $b-rhumba;
+    text-transform: uppercase;
+  }
+
+  &__categorie {
+    display: grid;
+    justify-items: center;
+    width: 100%;
+    margin: auto;
+    grid-column-gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  &__categorie-titre {
+    width: fit-content;
+    margin: 5px auto;
+    color: $b-rhumba;
+    text-transform: uppercase;
+  }
+
+  &__liste {
+    display: grid;
+    align-items: center;
+    padding: 0 5px;
+    width: 100%;
+    max-width: 350px;
+  }
+
+  &__item {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+
+  &__nom {
+    text-align: left;
+    margin: 0;
+    font-size: clamp(1.2rem, 2vw, 2rem);
+    font-weight: 300;
+    color: $b-rhumba;
+  }
+
+  &__prix {
+    text-align: right;
+    color: $black;
+    font-size: clamp(1.2rem, 2vw, 2rem);
+    font-weight: 300;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .rhumba-alcools {
+    &__categorie {
+      width: 320px;
+      grid-column: 1 !important;
+      grid-row: auto !important;
+    }
+  }
+}

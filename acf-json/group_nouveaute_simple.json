@@ -1,0 +1,127 @@
+{
+    "key": "group_nouveaute_simple",
+    "title": "Rhumba - Nouveauté Simple",
+    "fields": [
+        {
+            "key": "field_nouveaute_simple_group",
+            "label": "Nouveauté Simple",
+            "name": "nouveaute-simple",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "row",
+            "sub_fields": [
+                {
+                    "key": "field_nouveaute_simple_titre",
+                    "label": "Titre",
+                    "name": "titre",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Si vide n'affiche rien",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Nouveauté",
+                    "maxlength": "",
+                    "placeholder": "Nouvelle Bière Pression",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_nouveaute_simple_titre_nouveaute",
+                    "label": "Titre de la nouveauté",
+                    "name": "titre_nouveaute",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "Leffe Triple",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_nouveaute_simple_prix",
+                    "label": "Prix",
+                    "name": "prix",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "4",
+                    "maxlength": "",
+                    "placeholder": "3.80",
+                    "prepend": "",
+                    "append": "€"
+                },
+                {
+                    "key": "field_nouveaute_simple_background",
+                    "label": "Background",
+                    "name": "background",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "preview_size": "thumbnail"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf/rhumba-nouveaute-simple"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 1
+}

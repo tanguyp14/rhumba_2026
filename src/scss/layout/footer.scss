@@ -1,0 +1,51 @@
+@import "../abstracts/all";
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: $b-rhumba;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+  svg {
+    color: $white;
+    width: 24px;
+    height: 24px;
+  }
+
+  &:hover {
+    background-color: darken($b-rhumba, 10%);
+    transform: translateY(-3px);
+  }
+
+  &:active {
+    transform: translateY(-1px);
+  }
+
+  &.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+footer{
+  position: absolute;
+  bottom: 5px;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px 0;
+}

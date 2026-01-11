@@ -2,14 +2,14 @@
 @import "base/reset";
 
 // Abstracts
-@import "abstracts/mixins";
-@import "abstracts/utilities";
 @import "abstracts/colors";
+@import "abstracts/breakpoints";
+@import "abstracts/mixins";
 @import "abstracts/fonts";
 @import "abstracts/functions";
 @import "abstracts/placeholders";
+@import "abstracts/utilities";
 @import "abstracts/variables";
-@import "abstracts/breakpoints";
 
 // Base
 @import "base/text";

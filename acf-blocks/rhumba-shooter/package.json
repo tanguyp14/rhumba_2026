@@ -1,0 +1,11 @@
+{
+    "name": "rhumba-shooter",
+    "version": "1.0.0",
+    "description": "Affiche la section shooters de la carte Rhumba",
+    "main": "view.php",
+    "scripts": {
+        "build": "gulp build"
+    },
+    "author": "TYLT",
+    "license": "ISC"
+}

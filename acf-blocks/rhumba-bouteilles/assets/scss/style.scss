@@ -1,0 +1,135 @@
+@import "../../../../src/scss/abstracts/all";
+
+.rhumba-bouteilles {
+  background-image: url("../../../images/bouteilles.png");
+  background-position-y: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  &__titre {
+    width: fit-content;
+    margin: auto;
+    padding: 20px 0;
+    color: $b-rhumba;
+    text-transform: uppercase;
+  }
+
+  &__container {
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+
+  // Grille de l'en-tête
+  &__header {
+    display: grid;
+    grid-template-columns: 1.5fr repeat(2, minmax(50px, 1fr));
+    gap: clamp(4px, 2vw, 10px);
+    align-items: center;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid $b-rhumba-ligne;
+  }
+
+  &__header-nom-group {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 4px;
+  }
+
+  &__header-nom {
+    color: $b-rhumba;
+    text-align: right;
+    font-size: clamp(1.2rem, 2vw, 2rem);
+    font-weight: 300;
+  }
+
+  &__header-info-group {
+    display: grid;
+    grid-template-columns: 1fr 2rem;
+    gap: clamp(4px, 2vw, 10px);
+    text-align: right;
+    font-size: clamp(0.75rem, 2vw, 0.875rem);
+
+    .rhumba-bouteilles__header-info {
+      text-align: right;
+    }
+  }
+
+  &__header-info,
+  &__header-prix {
+    color: $b-rhumba;
+    text-align: center;
+  }
+
+  // Grille des produits
+  &__liste {
+    display: grid;
+    grid-template-columns: 1.5fr repeat(2, minmax(50px, 1fr));
+    gap: clamp(4px, 1.5vw, 8px) clamp(4px, 2vw, 10px);
+    align-items: center;
+  }
+
+  &__item-group {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 4px;
+  }
+
+  &__nom {
+    text-align: right;
+    color: $b-rhumba;
+    font-size: clamp(1.2rem, 2vw, 2rem);
+    font-weight: 300;
+  }
+
+  &__bio {
+    color: $g-bio;
+    margin-left: 5px;
+    animation: bio 4s ease-in-out infinite;
+  }
+
+  &__details {
+    display: grid;
+    grid-template-columns: 1fr 2rem;
+    gap: clamp(4px, 2vw, 10px);
+  }
+
+  &__type,
+  &__degres {
+    text-align: right;
+    font-size: clamp(0.75rem, 2vw, 0.875rem);
+  }
+
+  &__cl,
+  &__prix {
+    text-align: center;
+  }
+
+  &__prix {
+    font-weight: 600;
+    color: $black;
+    font-size: clamp(1.2rem, 2vw, 2rem);
+    font-weight: 300;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .rhumba-bouteilles {
+    &__container {
+      max-width: 100%;
+      padding: 0 10px;
+    }
+
+    &__header,
+    &__liste {
+      grid-template-columns: 1fr 50px 50px;
+      gap: 6px 8px;
+    }
+
+    &__nom {
+      word-break: break-word;
+    }
+  }
+}

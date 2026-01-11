@@ -71,3 +71,6 @@ function TYLT_new_wp_login_url() {
 	return home_url();
 }
 add_filter('login_headerurl', 'TYLT_new_wp_login_url');
+
+remove_action( 'wp_enqueue_scripts', 'wp_enqueue_global_styles' );
+remove_action( 'wp_footer', 'wp_enqueue_global_styles', 1 );

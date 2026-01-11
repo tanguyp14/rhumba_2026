@@ -1,0 +1,11 @@
+{
+    "name": "rhumba-soft",
+    "version": "1.0.0",
+    "description": "Affiche la section softs de la carte Rhumba",
+    "main": "view.php",
+    "scripts": {
+        "build": "gulp build"
+    },
+    "author": "TYLT",
+    "license": "ISC"
+}

@@ -1,0 +1,113 @@
+@import "../../../../src/scss/abstracts/all";
+
+.rhumba-vins {
+  background-image: url("../../../images/vins.png");
+  background-position-y: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  &__titre {
+    width: fit-content;
+    margin: auto;
+    padding: 20px 0;
+    color: $b-rhumba;
+    text-transform: uppercase;
+  }
+
+  // Grille de l'en-tête global
+  &__header {
+    display: grid;
+    grid-template-columns: 140px minmax(80px, 1.3fr) minmax(80px, 1.3fr);
+    gap: clamp(4px, 2vw, 10px);
+    align-items: center;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid $b-rhumba-ligne;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto 10px;
+  }
+
+  &__categorie {
+    width: 100%;
+    max-width: 320px;
+    margin: 20px auto 0;
+
+    &:first-of-type {
+      margin-top: 0;
+    }
+  }
+
+  &__categorie-titre {
+    width: 100%;
+    margin: 0 auto 10px;
+    padding-bottom: 8px;
+    color: $b-rhumba;
+    text-transform: uppercase;
+    border-bottom: 1px solid $b-rhumba-ligne;
+    text-align: center;
+  }
+
+  &__container {
+    width: 100%;
+  }
+
+  &__header-nom,
+  &__header-prix {
+    color: $b-rhumba;
+    text-align: center;
+  }
+
+  &__header-nom {
+    text-align: right;
+  }
+
+  // Grille des produits
+  &__liste {
+    display: grid;
+    grid-template-columns: 140px minmax(60px, 1.3fr) minmax(60px, 1.3fr);
+    gap: clamp(4px, 1.5vw, 8px) clamp(4px, 2vw, 10px);
+    align-items: center;
+  }
+
+  &__nom {
+    text-align: right;
+    color: $b-rhumba;
+    font-size: clamp(1.2rem, 2vw, 2rem);
+    font-weight: 300;
+  }
+
+  &__bio {
+    color: $g-bio;
+    margin-left: 5px;
+    animation: bio 4s ease-in-out infinite;
+  }
+
+  &__prix-item {
+    text-align: center;
+    color: $black;
+    font-size: clamp(1.2rem, 2vw, 2rem);
+    font-weight: 300;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .rhumba-vins {
+    &__categorie {
+      width: 250px;
+
+      &:first-child {
+        .rhumba-vins__categorie-titre {
+          &::after {
+            content: "70cl";
+            left: 190px;
+          }
+
+          &::before {
+            left: 141px;
+          }
+        }
+      }
+    }
+  }
+}

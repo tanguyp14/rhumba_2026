@@ -1,0 +1,232 @@
+{
+    "key": "group_field_627e2a0f10e6b",
+    "title": "Rhumba - Bi\u00e8res Pression",
+    "fields": [
+        {
+            "key": "field_627e2a0f10e6b",
+            "label": "Bi\u00e8res Pression",
+            "name": "bieres_pression",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "row",
+            "sub_fields": [
+                {
+                    "key": "field_627e2a5f10e6e",
+                    "label": "Titre Pression",
+                    "name": "pression",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Bi\u00e8res pression",
+                    "placeholder": "Titre",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_627e2a5110e6d",
+                    "label": "Toutes les bi\u00e8res",
+                    "name": "toutes_les_bieres",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "collapsed": "",
+                    "min": 0,
+                    "max": 0,
+                    "layout": "row",
+                    "button_label": "Ajouter un \u00e9l\u00e9ment",
+                    "sub_fields": [
+                        {
+                            "key": "field_627e2aa910e6f",
+                            "label": "Nom Bi\u00e8re",
+                            "name": "nom_biere",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "parent_repeater": "field_627e2a5110e6d"
+                        },
+                        {
+                            "key": "field_627e2abb10e71",
+                            "label": "Degr\u00e9s Alcool",
+                            "name": "degres_alcool",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "%",
+                            "maxlength": "",
+                            "parent_repeater": "field_627e2a5110e6d"
+                        },
+                        {
+                            "key": "field_627e2ada10e72",
+                            "label": "Prix Demi",
+                            "name": "prix_demi",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "\u20ac",
+                            "maxlength": "",
+                            "parent_repeater": "field_627e2a5110e6d"
+                        },
+                        {
+                            "key": "field_627e2b0510e73",
+                            "label": "Prix Pinte",
+                            "name": "prix_pinte",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "\u20ac",
+                            "maxlength": "",
+                            "parent_repeater": "field_627e2a5110e6d"
+                        },
+                        {
+                            "key": "field_627e2b1410e74",
+                            "label": "Prix Pichet",
+                            "name": "prix_pichet",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "\u20ac",
+                            "maxlength": "",
+                            "parent_repeater": "field_627e2a5110e6d"
+                        },
+                        {
+                            "key": "field_627e2b2b10e76",
+                            "label": "Type bi\u00e8re",
+                            "name": "type_biere",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Blonde",
+                            "placeholder": "Blonde",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "parent_repeater": "field_627e2a5110e6d"
+                        },
+                        {
+                            "key": "field_628b90d29abb6",
+                            "label": "BIO",
+                            "name": "bio",
+                            "aria-label": "",
+                            "type": "true_false",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "",
+                            "default_value": 0,
+                            "ui": 1,
+                            "ui_on_text": "",
+                            "ui_off_text": "",
+                            "parent_repeater": "field_627e2a5110e6d"
+                        }
+                    ],
+                    "rows_per_page": 20
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf/rhumba-bieres-pression"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 1
+}

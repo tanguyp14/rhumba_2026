@@ -1,0 +1,818 @@
+<body class="home wp-singular page-template page-template-pages-templates page-template-template-rhumba page-template-pages-templatestemplate-rhumba-php page page-id-14 logged-in admin-bar no-customize-support wp-theme-tanguyp wp-child-theme-tanguyp-child">
+<script>
+		(function() {
+			var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+
+				request = true;
+	
+			b[c] = b[c].replace( rcs, ' ' );
+			// The customizer requires postMessage and CORS (if the site is cross domain).
+			b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+		}());
+	
+//# sourceURL=wp_customize_support_script
+</script>
+		<div id="wpadminbar" class="nojq nojs">
+						<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Barre d’outils">
+				<ul role='menu' id='wp-admin-bar-root-default' class="ab-top-menu"><li role='group' id='wp-admin-bar-wp-logo' class="menupop"><a class='ab-item' role="menuitem" aria-expanded="false" href='https://www.rhumba.tanguy-pinel.com/wp-admin/about.php'><span class="ab-icon" aria-hidden="true"></span><span class="screen-reader-text">À propos de WordPress</span></a><div class="ab-sub-wrapper"><ul role='menu' aria-label='À propos de WordPress' id='wp-admin-bar-wp-logo-default' class="ab-submenu"><li role='group' id='wp-admin-bar-about'><a class='ab-item' role="menuitem" href='https://www.rhumba.tanguy-pinel.com/wp-admin/about.php'>À propos de WordPress</a></li><li role='group' id='wp-admin-bar-contribute'><a class='ab-item' role="menuitem" href='https://www.rhumba.tanguy-pinel.com/wp-admin/contribute.php'>Contribuer</a></li></ul><ul role='menu' aria-label='À propos de WordPress' id='wp-admin-bar-wp-logo-external' class="ab-sub-secondary ab-submenu"><li role='group' id='wp-admin-bar-wporg'><a class='ab-item' role="menuitem" href='https://fr.wordpress.org/'>Site de WordPress-FR</a></li><li role='group' id='wp-admin-bar-documentation'><a class='ab-item' role="menuitem" href='https://fr.wordpress.org/support/'>Documentation</a></li><li role='group' id='wp-admin-bar-learn'><a class='ab-item' role="menuitem" href='https://learn.wordpress.org/'>Apprendre WordPress</a></li><li role='group' id='wp-admin-bar-support-forums'><a class='ab-item' role="menuitem" href='https://wpfr.net/support'>Forums de support</a></li><li role='group' id='wp-admin-bar-feedback'><a class='ab-item' role="menuitem" href='https://wordpress.org/support/forum/requests-and-feedback'>Vos retours</a></li></ul></div></li><li role='group' id='wp-admin-bar-site-name' class="menupop"><a class='ab-item' role="menuitem" aria-expanded="false" href='https://www.rhumba.tanguy-pinel.com/wp-admin/'>Rhumba</a><div class="ab-sub-wrapper"><ul role='menu' aria-label='Rhumba' id='wp-admin-bar-site-name-default' class="ab-submenu"><li role='group' id='wp-admin-bar-dashboard'><a class='ab-item' role="menuitem" href='https://www.rhumba.tanguy-pinel.com/wp-admin/'>Tableau de bord</a></li><li role='group' id='wp-admin-bar-plugins'><a class='ab-item' role="menuitem" href='https://www.rhumba.tanguy-pinel.com/wp-admin/plugins.php'>Extensions</a></li></ul><ul role='menu' aria-label='Rhumba' id='wp-admin-bar-appearance' class="ab-submenu"><li role='group' id='wp-admin-bar-themes'><a class='ab-item' role="menuitem" href='https://www.rhumba.tanguy-pinel.com/wp-admin/themes.php'>Thèmes</a></li><li role='group' id='wp-admin-bar-widgets'><a class='ab-item' role="menuitem" href='https://www.rhumba.tanguy-pinel.com/wp-admin/widgets.php'>Widgets</a></li><li role='group' id='wp-admin-bar-menus'><a class='ab-item' role="menuitem" href='https://www.rhumba.tanguy-pinel.com/wp-admin/nav-menus.php'>Menus</a></li><li role='group' id='wp-admin-bar-background' class="hide-if-customize"><a class='ab-item' role="menuitem" href='https://www.rhumba.tanguy-pinel.com/wp-admin/themes.php?page=custom-background'>Arrière-plan</a></li><li role='group' id='wp-admin-bar-header' class="hide-if-customize"><a class='ab-item' role="menuitem" href='https://www.rhumba.tanguy-pinel.com/wp-admin/themes.php?page=custom-header'>Entête</a></li></ul></div></li><li role='group' id='wp-admin-bar-customize' class="hide-if-no-customize"><a class='ab-item' role="menuitem" href='https://www.rhumba.tanguy-pinel.com/wp-admin/customize.php?url=https%3A%2F%2Fwww.rhumba.tanguy-pinel.com%2F'>Personnaliser</a></li><li role='group' id='wp-admin-bar-updates'><a class='ab-item' role="menuitem" href='https://www.rhumba.tanguy-pinel.com/wp-admin/update-core.php'><span class="ab-icon" aria-hidden="true"></span><span class="ab-label" aria-hidden="true">1</span><span class="screen-reader-text updates-available-text">1 mise à jour disponible</span></a></li><li role='group' id='wp-admin-bar-comments'><a class='ab-item' role="menuitem" href='https://www.rhumba.tanguy-pinel.com/wp-admin/edit-comments.php'><span class="ab-icon" aria-hidden="true"></span><span class="ab-label awaiting-mod pending-count count-0" aria-hidden="true">0</span><span class="screen-reader-text comments-in-moderation-text">0 commentaire en modération</span></a></li><li role='group' id='wp-admin-bar-new-content' class="menupop"><a class='ab-item' role="menuitem" aria-expanded="false" href='https://www.rhumba.tanguy-pinel.com/wp-admin/post-new.php'><span class="ab-icon" aria-hidden="true"></span><span class="ab-label">Créer</span></a><div class="ab-sub-wrapper"><ul role='menu' aria-label='Créer' id='wp-admin-bar-new-content-default' class="ab-submenu"><li role='group' id='wp-admin-bar-new-post'><a class='ab-item' role="menuitem" href='https://www.rhumba.tanguy-pinel.com/wp-admin/post-new.php'>Article</a></li><li role='group' id='wp-admin-bar-new-media'><a class='ab-item' role="menuitem" href='https://www.rhumba.tanguy-pinel.com/wp-admin/media-new.php'>Fichier média</a></li><li role='group' id='wp-admin-bar-new-page'><a class='ab-item' role="menuitem" href='https://www.rhumba.tanguy-pinel.com/wp-admin/post-new.php?post_type=page'>Page</a></li><li role='group' id='wp-admin-bar-new-user'><a class='ab-item' role="menuitem" href='https://www.rhumba.tanguy-pinel.com/wp-admin/user-new.php'>Compte</a></li></ul></div></li><li role='group' id='wp-admin-bar-edit'><a class='ab-item' role="menuitem" href='https://www.rhumba.tanguy-pinel.com/wp-admin/post.php?post=14&#038;action=edit'>Modifier la page</a></li><li role='group' id='wp-admin-bar-google-site-kit' class="menupop googlesitekit-wp-adminbar"><a class='ab-item' role="menuitem" href='#'><span class="googlesitekit-wp-adminbar__icon"></span> <span class="googlesitekit-wp-adminbar__label">Site Kit</span></a>		<div class="googlesitekit-plugin ab-sub-wrapper">
+						<noscript>
+				<div class="googlesitekit-noscript notice notice-warning">
+					<div class="mdc-layout-grid">
+						<div class="mdc-layout-grid__inner">
+							<div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+								<p class="googlesitekit-noscript__text">
+									The Site Kit by Google plugin requires JavaScript to be enabled in your browser.								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</noscript>
+		
+			<div id="js-googlesitekit-adminbar" data-view-only="" class="googlesitekit-adminbar">
+
+				
+				<section id="js-googlesitekit-adminbar-modules" class="googlesitekit-adminbar-modules"></section>
+
+							</div>
+		</div>
+		</li><li role='group' id='wp-admin-bar-wpfc-toolbar-parent' class="menupop"><a class='ab-item' role="menuitem" aria-expanded="false" href='https://www.rhumba.tanguy-pinel.com/wp-admin/admin.php?page=wpfastestcacheoptions'>WP Fastest Cache</a><div class="ab-sub-wrapper"><ul role='menu' id='wp-admin-bar-wpfc-toolbar-parent-default' class="ab-submenu"><li role='group' id='wp-admin-bar-wpfc-toolbar-parent-clear-cache-of-this-page' class="wpfc-toolbar-child"><a class='ab-item' role="menuitem" href='#'>Clear Cache of This Page</a></li><li role='group' id='wp-admin-bar-wpfc-toolbar-parent-delete-cache' class="wpfc-toolbar-child"><a class='ab-item' role="menuitem" href='#'>Nettoyer tout le cache</a></li><li role='group' id='wp-admin-bar-wpfc-toolbar-parent-delete-cache-and-minified' class="wpfc-toolbar-child"><a class='ab-item' role="menuitem" href='#'>Clear Cache and Minified CSS/JS</a></li></ul></div></li></ul><ul role='menu' id='wp-admin-bar-top-secondary' class="ab-top-secondary ab-top-menu"><li role='group' id='wp-admin-bar-my-account' class="menupop with-avatar"><a class='ab-item' role="menuitem" aria-expanded="false" href='https://www.rhumba.tanguy-pinel.com/wp-admin/profile.php'>Bonjour, <span class="display-name">tanguy-rhumba</span><img alt='' src='https://secure.gravatar.com/avatar/607967f024472407468b071fe80afc38c63350db22a96ee37e920e133888a176?s=26&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/607967f024472407468b071fe80afc38c63350db22a96ee37e920e133888a176?s=52&#038;d=mm&#038;r=g 2x' class='avatar avatar-26 photo' height='26' width='26' decoding='async'/></a><div class="ab-sub-wrapper"><ul role='menu' aria-label='Bonjour, tanguy-rhumba' id='wp-admin-bar-user-actions' class="ab-submenu"><li role='group' id='wp-admin-bar-user-info'><a class='ab-item' role="menuitem" href='https://www.rhumba.tanguy-pinel.com/wp-admin/profile.php'><img alt='' src='https://secure.gravatar.com/avatar/607967f024472407468b071fe80afc38c63350db22a96ee37e920e133888a176?s=64&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/607967f024472407468b071fe80afc38c63350db22a96ee37e920e133888a176?s=128&#038;d=mm&#038;r=g 2x' class='avatar avatar-64 photo' height='64' width='64' decoding='async'/><span class='display-name'>tanguy-rhumba</span><span class='display-name edit-profile'>Modifier le profil</span></a></li><li role='group' id='wp-admin-bar-logout'><a class='ab-item' role="menuitem" href='https://www.rhumba.tanguy-pinel.com/wp-login.php?action=logout&#038;_wpnonce=4f90d87cc6'>Se déconnecter</a></li></ul></div></li><li role='group' id='wp-admin-bar-search' class="admin-bar-search"><div class="ab-item ab-empty-item" tabindex="-1" role="menuitem"><form action="https://www.rhumba.tanguy-pinel.com/" method="get" id="adminbarsearch"><input class="adminbar-input" name="s" id="adminbar-search" type="text" value="" maxlength="150" /><label for="adminbar-search" class="screen-reader-text">Rechercher</label><input type="submit" class="adminbar-button" value="Rechercher" /></form></div></li></ul>			</div>
+		</div>
+
+		
+<main id="carte">
+    <span class="ligne-b"></span>
+    <div>
+        <h1>LA RHUMBA</h1>
+        <span class="ligne-b"></span>
+    </div>
+            <section id="vin_chaud">
+            <h2>Vin Chaud - 20cl</h2>
+            <span>3,50€</span>
+            <style type="text/css">
+                #vin_chaud {
+                    padding: 5vh 0;
+                    width: 100%;
+                    background-size: cover;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    background-image: url('https://www.rhumba.tanguy-pinel.com/wp-content/uploads/2023/12/NOELRHumb.png');
+                    margin-bottom: 2vh;
+                }
+
+                #vin_chaud span {
+                    display: flex;
+                    align-items: center;
+                    margin: auto;
+                    color: white;
+                    justify-content: center;
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+
+                #vin_chaud h2 {
+                    text-transform: uppercase;
+                    flex: 1;
+                    color: white;
+                    text-align: center;
+                    width: fit-content;
+                    margin: auto;
+                    padding: 10px 0 0 0 !important;
+                    font-size: 26px;
+                    font-weight: 700;
+                    animation: zoom-in-zoom-out 5s ease-in-out infinite;
+                }
+            </style>
+        </section>
+            <section id="new">
+            <h2>BONNE ANNÉE </h2>
+            <div id="new-item">
+                <span class="nom">
+                    <span class="nom-new">IPA DE NOËL</span>
+                    <div class="sous-nom">
+                        <span class="description">IPA Festive</span>
+                        <span class="degree">7%</span>
+                                            </div>
+                </span>
+                <span class="demi">
+                    3,90€
+                </span>
+                <span class="pinte">
+                    7,5€
+                </span>
+            </div>
+            <style type="text/css">
+                #new {
+                    background-image: url('https://www.rhumba.tanguy-pinel.com/wp-content/uploads/2022/05/bg-bier-1024x229-1.jpg');
+                }
+            </style>
+        </section>
+    
+    <section id="pression">
+                    <h2>Bières pression</h2>
+                        <div class="bieres">
+                <div class="biere-nom">
+                    <span class="nom">
+                                                Francette                    </span>
+                    <span class="type">Blonde 5,0%</span>
+                </div>
+                <div class="demi">2,70€</div>
+                <div class="pinte">5,40€</div>
+                <div class="pichet">10€</div>
+            </div>
+                        <div class="bieres">
+                <div class="biere-nom">
+                    <span class="nom">
+                                                Bacchus Kriek                    </span>
+                    <span class="type">Rouge Cerise 5,8%</span>
+                </div>
+                <div class="demi">3,80€</div>
+                <div class="pinte">7,50€</div>
+                <div class="pichet">14€</div>
+            </div>
+                        <div class="bieres">
+                <div class="biere-nom">
+                    <span class="nom">
+                                                Kasteel Rubus                    </span>
+                    <span class="type">Bière Framboise 7%</span>
+                </div>
+                <div class="demi">3,80€</div>
+                <div class="pinte">7,50€</div>
+                <div class="pichet">14€</div>
+            </div>
+                        <div class="bieres">
+                <div class="biere-nom">
+                    <span class="nom">
+                                                Tripel LeFort                    </span>
+                    <span class="type">Triple Blonde 8,8%</span>
+                </div>
+                <div class="demi">3,80€</div>
+                <div class="pinte">7,50€</div>
+                <div class="pichet">14€</div>
+            </div>
+                        <div class="bieres">
+                <div class="biere-nom">
+                    <span class="nom">
+                                                Cuvée des Trolls                    </span>
+                    <span class="type">Blonde 7%</span>
+                </div>
+                <div class="demi">4€</div>
+                <div class="pinte">8€</div>
+                <div class="pichet">15€</div>
+            </div>
+                        <div class="bieres">
+                <div class="biere-nom">
+                    <span class="nom">
+                                                Filou IPA                    </span>
+                    <span class="type">Blonde IPA 6,5%</span>
+                </div>
+                <div class="demi">3,90€</div>
+                <div class="pinte">7,50€</div>
+                <div class="pichet">14€</div>
+            </div>
+                        <div class="bieres">
+                <div class="biere-nom">
+                    <span class="nom">
+                                                Kasteel Tropical                    </span>
+                    <span class="type">Ananas/Mangue/Passion 7%</span>
+                </div>
+                <div class="demi">3,90€</div>
+                <div class="pinte">7,50€</div>
+                <div class="pichet">14€</div>
+            </div>
+                        <h4>Pour les pichets de 1L nous vous demanderons une caution de 2€</h4>
+                </section>
+
+    <section id="cocktails-bieres">
+                    <h2>Cocktails Bières</h2>
+                                <div class="bieres">
+                        <div class="biere-nom">Embuscade                            <div class="biere-recette">Sirop Citron - Sirop Cassis - Calvados - Bière - Vin Blanc</div>
+                        </div>
+                        <div class="demi">4€</div>
+                        <div class="pinte">8€</div>
+                        <div class="pichet">15€</div>
+                    </div>
+                                        <div class="bieres">
+                        <div class="biere-nom">Monaco                            <div class="biere-recette">Limonade - Bière - Sirop de Grenadine</div>
+                        </div>
+                        <div class="demi">3€</div>
+                        <div class="pinte">6€</div>
+                        <div class="pichet">11€</div>
+                    </div>
+                                        <div class="bieres">
+                        <div class="biere-nom">Cervoise                            <div class="biere-recette">Sirop Citron - Bière - Vin Blanc</div>
+                        </div>
+                        <div class="demi">3,80€</div>
+                        <div class="pinte">7,50€</div>
+                        <div class="pichet">14€</div>
+                    </div>
+                                        <div class="bieres">
+                        <div class="biere-nom">Picon Bière                            <div class="biere-recette"></div>
+                        </div>
+                        <div class="demi">3,80€</div>
+                        <div class="pinte">7,50€</div>
+                        <div class="pichet">14€</div>
+                    </div>
+                                <h4>Pour les pichets de 1L nous vous demanderons une caution de 2€</h4>
+           </section>
+
+    <section id="bieres-bouteilles-locales">
+                    <h2></h2>
+                </section>
+    <section id="bieres-bouteilles-locales">
+                    <h2>Bière Artisanale de Sainte-Mère-Eglise</h2>
+                                <div class="local-bieres">
+                        <div class="biere-img" style="background-image:url('https://www.rhumba.tanguy-pinel.com/wp-content/uploads/2023/10/Sainte-Mere-Biere.jpg')"></div>
+                        <div class="desc">
+                            <div class="biere-nom">La Sainte-Mère-Église<span class="prix">5,50€</span></div>
+                            <div class="sub-desc">
+                                <div class="cl">33cl</div>
+                                <div class="degre">5,5%</div>
+                                <div class="type">Blonde</div>
+                            </div>
+                            <div class="biere-desc">La bière du 75ème devient La Sainte-Mère-Église. Cette bière blonde rafraîchissante, brassée avec des houblons français présente un goût floral prononcé et une légère amertume.</div>
+                        </div>
+                    </div>
+                                        <div class="local-bieres">
+                        <div class="biere-img" style="background-image:url('https://www.rhumba.tanguy-pinel.com/wp-content/uploads/2023/10/prettydolly-square-2021.jpg')"></div>
+                        <div class="desc">
+                            <div class="biere-nom">Pretty Dolly<span class="prix">5,50€</span></div>
+                            <div class="sub-desc">
+                                <div class="cl">33cl</div>
+                                <div class="degre">6%</div>
+                                <div class="type">Blonde</div>
+                            </div>
+                            <div class="biere-desc">Dotée d’une jolie robe ambrée, cette English Pale Ale, possède une légère amertume, un subtil goût de céréale.
+Elle se caractérise par un goût authentique.</div>
+                        </div>
+                    </div>
+                                        <div class="local-bieres">
+                        <div class="biere-img" style="background-image:url('https://www.rhumba.tanguy-pinel.com/wp-content/uploads/2023/10/Diamond-Lily-Square-2021.jpg')"></div>
+                        <div class="desc">
+                            <div class="biere-nom">Diamond Lily<span class="prix">5,50€</span></div>
+                            <div class="sub-desc">
+                                <div class="cl">33cl</div>
+                                <div class="degre">6%</div>
+                                <div class="type">Brune</div>
+                            </div>
+                            <div class="biere-desc">Cette bière brune, brown porter, légère et onctueuse a des notes de café dues au malt torréfié utilisé au brassage.
+Elle révèle un léger goût de fruit rouge en fin de bouche.</div>
+                        </div>
+                    </div>
+                                        <div class="local-bieres">
+                        <div class="biere-img" style="background-image:url('https://www.rhumba.tanguy-pinel.com/wp-content/uploads/2023/10/Wendy-Belle-Square.jpg')"></div>
+                        <div class="desc">
+                            <div class="biere-nom">Wendy Belle<span class="prix">5,50€</span></div>
+                            <div class="sub-desc">
+                                <div class="cl">33cl</div>
+                                <div class="degre">6%</div>
+                                <div class="type">Rousse</div>
+                            </div>
+                            <div class="biere-desc">Elle arbore une coloration rousse, cette Irish Red Ale est peu houblonnée, une belle robe ambrée et un goût caramélisé.
+Sa rondeur sucrée réveillera vos papilles.</div>
+                        </div>
+                    </div>
+                                        <div class="local-bieres">
+                        <div class="biere-img" style="background-image:url('https://www.rhumba.tanguy-pinel.com/wp-content/uploads/2023/10/Utah-1.png')"></div>
+                        <div class="desc">
+                            <div class="biere-nom">Utah Beer<span class="prix">5,50€</span></div>
+                            <div class="sub-desc">
+                                <div class="cl">33cl</div>
+                                <div class="degre">7%</div>
+                                <div class="type">American IPA</div>
+                            </div>
+                            <div class="biere-desc">Cette IPA (India Pale Ale) est clairement houblonnée, elle se révèle par ses touches d’agrume, floral et parfumé.
+Brassée avec des houblons américains.</div>
+                        </div>
+                    </div>
+                                        <div class="local-bieres">
+                        <div class="biere-img" style="background-image:url('https://www.rhumba.tanguy-pinel.com/wp-content/uploads/2024/04/Biere-80eme.png')"></div>
+                        <div class="desc">
+                            <div class="biere-nom">Biere du 80éme<span class="prix">5,50€</span></div>
+                            <div class="sub-desc">
+                                <div class="cl">33cl</div>
+                                <div class="degre">5%</div>
+                                <div class="type">IPA</div>
+                            </div>
+                            <div class="biere-desc">Cette bière est spécialement conçue pour le 80ème anniversaire du débarquement en Normandie.</div>
+                        </div>
+                    </div>
+                        </section>
+    <section id="bouteilles">
+                    <h2>Bouteilles</h2>
+            <div class="items">
+                                        <div class="item">
+                            <div class="nom">
+                                                                Corona                            </div>
+                            <div class="cl">33cl</div>
+                            <div class="degree">4,6%</div>
+                            <div class="type">Blonde</div>
+                            <div class="prix">5,50€</div>
+                        </div>
+                                                <div class="item">
+                            <div class="nom">
+                                                                Desperados                            </div>
+                            <div class="cl">33cl</div>
+                            <div class="degree">4,6%</div>
+                            <div class="type">Blonde</div>
+                            <div class="prix">5,50€</div>
+                        </div>
+                                                <div class="item">
+                            <div class="nom">
+                                                                La Chouffe                            </div>
+                            <div class="cl">33cl</div>
+                            <div class="degree">8%</div>
+                            <div class="type">Blonde</div>
+                            <div class="prix">5€</div>
+                        </div>
+                                                <div class="item">
+                            <div class="nom">
+                                                                Jupiler Sans Alcool                            </div>
+                            <div class="cl">25cl</div>
+                            <div class="degree">0%</div>
+                            <div class="type">Blonde</div>
+                            <div class="prix">2,70€</div>
+                        </div>
+                                                <div class="item">
+                            <div class="nom">
+                                                                <span class="bio">BIO</span>
+                                                                Cidricchus                            </div>
+                            <div class="cl">33cl</div>
+                            <div class="degree">6%</div>
+                            <div class="type">Cidre</div>
+                            <div class="prix">3,50€</div>
+                        </div>
+                                    </div>
+    </section>
+    <section id="cocktails">
+                        <h2>Cocktails</h2>
+        <div class="all-cockt">
+                                    <div class="type-al Rhum">
+                <h3>Rhum</h3>
+                                                                <div class="items">
+                    <div class="titre">Ti-Punch</div>
+                    <div class="prix">6€</div>
+                    <div class="recette">Rhum Agricole - Sirop Sucre Maison - Citron Vert</div>
+                </div>
+                                <div class="items">
+                    <div class="titre">Mojito</div>
+                    <div class="prix">8€</div>
+                    <div class="recette">Rhum - Menthes - Sucre - Citrons Verts - Perrier</div>
+                </div>
+                                <div class="items">
+                    <div class="titre">Planteur</div>
+                    <div class="prix">8€</div>
+                    <div class="recette">Rhum Agricole - Jus d'Orange - Jus d'Ananas - Citrons Verts - Sirop de Fraise</div>
+                </div>
+                                <div class="items">
+                    <div class="titre">Daïquiri</div>
+                    <div class="prix">8€</div>
+                    <div class="recette">Rhum - Citrons Verts - Sucre</div>
+                </div>
+                                <div class="items">
+                    <div class="titre">Piña Colada</div>
+                    <div class="prix">8€</div>
+                    <div class="recette">Rhum - Purée Coco - Jus d'Ananas</div>
+                </div>
+                                <div class="items">
+                    <div class="titre">Mai Tai</div>
+                    <div class="prix">8€</div>
+                    <div class="recette">Rhum Blanc - Rhum Ambré - Triple Sec - Citrons Verts - Sirop d'Orgeat</div>
+                </div>
+                            </div>            <div class="type-al Vodka">
+                <h3>Vodka</h3>
+                                                                <div class="items">
+                    <div class="titre">Sex on the Beach</div>
+                    <div class="prix">8€</div>
+                    <div class="recette">Vodka - Crème de pêche - Jus d'Orange - Jus d'Ananas - Sirop de Grenadine</div>
+                </div>
+                                <div class="items">
+                    <div class="titre">Blue Lagoon</div>
+                    <div class="prix">8€</div>
+                    <div class="recette">Vodka - Curaçao - Citrons Jaunes</div>
+                </div>
+                                <div class="items">
+                    <div class="titre">Moscow Mules</div>
+                    <div class="prix">8€</div>
+                    <div class="recette">Vodka - Ginger Beer - Citrons Verts</div>
+                </div>
+                            </div>            <div class="type-al Tequila">
+                <h3>Tequila</h3>
+                                                                <div class="items">
+                    <div class="titre">Tequila Sunrise</div>
+                    <div class="prix">8€</div>
+                    <div class="recette">Tequila - Jus d'Orange - Sirop de Grenadine</div>
+                </div>
+                                <div class="items">
+                    <div class="titre">Margarita</div>
+                    <div class="prix">8€</div>
+                    <div class="recette">Tequila - Triple Sec - Citrons Verts</div>
+                </div>
+                            </div>            <div class="type-al Gin">
+                <h3>Gin</h3>
+                                                                <div class="items">
+                    <div class="titre">Gin Fizz</div>
+                    <div class="prix">8€</div>
+                    <div class="recette">Gin - Citrons Verts - Sucre - Perrier</div>
+                </div>
+                                <div class="items">
+                    <div class="titre">London Mules</div>
+                    <div class="prix">8€</div>
+                    <div class="recette">Gin - Ginger Beer - Citrons Verts</div>
+                </div>
+                            </div>            <div class="type-al Autres">
+                <h3>Autres</h3>
+                                                                <div class="items">
+                    <div class="titre">Americano</div>
+                    <div class="prix">8€</div>
+                    <div class="recette">Vermouth Blanc - Vermouth Rouge - Campari</div>
+                </div>
+                                <div class="items">
+                    <div class="titre">Spritz</div>
+                    <div class="prix">6€</div>
+                    <div class="recette">Aperol - Presecco - Perrier</div>
+                </div>
+                                <div class="items">
+                    <div class="titre">Negroni</div>
+                    <div class="prix">8€</div>
+                    <div class="recette">Vermouth Rouge - Campari - Gin</div>
+                </div>
+                                <div class="items">
+                    <div class="titre">Long Island</div>
+                    <div class="prix">9€</div>
+                    <div class="recette">Vodka - Gin - Rhum - Tequila - Triple Sec - Citrons Verts - Coca-Cola</div>
+                </div>
+                                <div class="items">
+                    <div class="titre">Alcool + Soft</div>
+                    <div class="prix">7€</div>
+                    <div class="recette">Redbull +0,5€</div>
+                </div>
+                            </div>        </div>
+            </section>
+    <section id="shooters">
+                <h2>Shooters</h2>
+        <div class="items">
+                                <div class="item">
+                        <div class="nom">RHUMBA</div>
+                        <div class="recette">Le Rhum de la maison !</div>
+                        <div class="prix">3€</div>
+                    </div>
+                                                            <div class="item">
+                        <div class="nom">Kiss Kool</div>
+                        <div class="recette">Vodka - Get 31</div>
+                        <div class="prix">3€</div>
+                    </div>
+                                                            <div class="item">
+                        <div class="nom">Madeleine</div>
+                        <div class="recette">Vodka - Sirop d'Orgeat - Jus d'Ananas</div>
+                        <div class="prix">3€</div>
+                    </div>
+                                                            <div class="item">
+                        <div class="nom">Springbok</div>
+                        <div class="recette">Bailey's - Get 27</div>
+                        <div class="prix">3€</div>
+                    </div>
+                                                            <div class="item">
+                        <div class="nom">Orgasme</div>
+                        <div class="recette">Bailey's - Get 31 - Tequila</div>
+                        <div class="prix">3€</div>
+                    </div>
+                                                            <div class="item">
+                        <div class="nom">Baby Guiness</div>
+                        <div class="recette">Bailey's - Kahlua</div>
+                        <div class="prix">3€</div>
+                    </div>
+                                                            <div class="item">
+                        <div class="nom">Alcool + Sirop</div>
+                        <div class="recette">Rhum ou Vodka</div>
+                        <div class="prix">3€</div>
+                    </div>
+                                        <span class="s-j-t">Menthe - Grenadine - Fraise - Framboise - Cerise - Orgeat - Cassis - Banane - Kiwi - Violette - Pêche - Citron - Coco - Caramel</span>
+                                                            <div class="item">
+                        <div class="nom">Mètre de shooter</div>
+                        <div class="recette">10 Shooters</div>
+                        <div class="prix">25€</div>
+                    </div>
+                                            </section>
+    <section id="vins">
+                        <h2>Vins</h2>
+        <div class="all-vins">
+                                    <div class="type-vins Blanc">
+                <h3>Blanc</h3>
+                <div class="items">
+                                                                                <div class="item">
+                        <div class="titre">
+                                                        La Rencontre - Sauvignon                        </div>
+                        <div class="prix">3,50€</div>
+                        <div class="prix-bouteille">19€</div>
+                    </div>
+                                        <div class="item">
+                        <div class="titre">
+                                                        Camas - Chardonnay                        </div>
+                        <div class="prix">3,50€</div>
+                        <div class="prix-bouteille">19€</div>
+                    </div>
+                                        <div class="item">
+                        <div class="titre">
+                                                        Coteaux du Layon                        </div>
+                        <div class="prix">4,00€</div>
+                        <div class="prix-bouteille">20€</div>
+                    </div>
+                                    </div>
+            </div>            <div class="type-vins Rouge">
+                <h3>Rouge</h3>
+                <div class="items">
+                                                                                <div class="item">
+                        <div class="titre">
+                                                        Syrah                        </div>
+                        <div class="prix">3,50€</div>
+                        <div class="prix-bouteille">19€</div>
+                    </div>
+                                        <div class="item">
+                        <div class="titre">
+                                                        Pinot Noir                        </div>
+                        <div class="prix">3,50€</div>
+                        <div class="prix-bouteille">19€</div>
+                    </div>
+                                    </div>
+            </div>            <div class="type-vins Rose">
+                <h3>Rose</h3>
+                <div class="items">
+                                                                                <div class="item">
+                        <div class="titre">
+                                                        Jolie Quille                        </div>
+                        <div class="prix">3,60€</div>
+                        <div class="prix-bouteille">19€</div>
+                    </div>
+                                        <div class="item">
+                        <div class="titre">
+                                                        Nautic                        </div>
+                        <div class="prix">3,50€</div>
+                        <div class="prix-bouteille">19€</div>
+                    </div>
+                                    </div>
+            </div>            <div class="type-vins Pétillants">
+                <h3>Pétillants</h3>
+                <div class="items">
+                                                                                <div class="item">
+                        <div class="titre">
+                                                        Prosecco                        </div>
+                        <div class="prix">3,50€</div>
+                        <div class="prix-bouteille">19€</div>
+                    </div>
+                                    </div>
+            </div>        </div>
+            </section>
+    <section id="alcools">
+                        <h2>Alcools</h2>
+        <div class="all-alcool">
+                                    <div class="type-al ">
+                <h3>Whisky</h3>
+                                                                <div class="items">
+                    <div class="titre">Dalwhinnie</div>
+                    <div class="prix">8€</div>
+                </div>
+                                <div class="items">
+                    <div class="titre">Abberlour</div>
+                    <div class="prix">8€</div>
+                </div>
+                                <div class="items">
+                    <div class="titre">Talisker Skye</div>
+                    <div class="prix">8€</div>
+                </div>
+                                <div class="items">
+                    <div class="titre">Jameson</div>
+                    <div class="prix">8€</div>
+                </div>
+                                <div class="items">
+                    <div class="titre">Jack Daniel's</div>
+                    <div class="prix">7,50€</div>
+                </div>
+                            </div>            <div class="type-al ">
+                <h3>Rhum</h3>
+                                                                <div class="items">
+                    <div class="titre">Don Papa</div>
+                    <div class="prix">8€</div>
+                </div>
+                                <div class="items">
+                    <div class="titre">Diplomatico</div>
+                    <div class="prix">8€</div>
+                </div>
+                                <div class="items">
+                    <div class="titre">Botran 15ans</div>
+                    <div class="prix">8€</div>
+                </div>
+                                <div class="items">
+                    <div class="titre">Damoiseau VO</div>
+                    <div class="prix">8€</div>
+                </div>
+                                <div class="items">
+                    <div class="titre">Kraken</div>
+                    <div class="prix">8€</div>
+                </div>
+                                <div class="items">
+                    <div class="titre">Coloma</div>
+                    <div class="prix">8€</div>
+                </div>
+                            </div>            <div class="type-al ">
+                <h3>Anisé</h3>
+                                                                <div class="items">
+                    <div class="titre">Ricard</div>
+                    <div class="prix">2,50€</div>
+                </div>
+                                <div class="items">
+                    <div class="titre">Pastis 51</div>
+                    <div class="prix">2,50€</div>
+                </div>
+                                <div class="items">
+                    <div class="titre">Anis Gras</div>
+                    <div class="prix">2,50€</div>
+                </div>
+                                <div class="items">
+                    <div class="titre">Berger Blanc</div>
+                    <div class="prix">2,50€</div>
+                </div>
+                            </div>            <div class="type-al ">
+                <h3>Gin</h3>
+                                                                <div class="items">
+                    <div class="titre">Plymouth</div>
+                    <div class="prix">8€</div>
+                </div>
+                                <div class="items">
+                    <div class="titre">Bombay Sapphire</div>
+                    <div class="prix">8€</div>
+                </div>
+                                <div class="items">
+                    <div class="titre">Roku</div>
+                    <div class="prix">8€</div>
+                </div>
+                                <div class="items">
+                    <div class="titre">Normindia</div>
+                    <div class="prix">8€</div>
+                </div>
+                            </div>            <div class="type-al ">
+                <h3>Aperitifs</h3>
+                                                                <div class="items">
+                    <div class="titre">Martini Rouge</div>
+                    <div class="prix">4€</div>
+                </div>
+                                <div class="items">
+                    <div class="titre">Martini Blanc</div>
+                    <div class="prix">4€</div>
+                </div>
+                                <div class="items">
+                    <div class="titre">Campari</div>
+                    <div class="prix">4€</div>
+                </div>
+                            </div>            <div class="type-al ">
+                <h3>Digestifs</h3>
+                                                                <div class="items">
+                    <div class="titre">Get 27</div>
+                    <div class="prix">6€</div>
+                </div>
+                                <div class="items">
+                    <div class="titre">Get 31</div>
+                    <div class="prix">6€</div>
+                </div>
+                                <div class="items">
+                    <div class="titre">Cognac</div>
+                    <div class="prix">6€</div>
+                </div>
+                                <div class="items">
+                    <div class="titre">Bailley's</div>
+                    <div class="prix">6€</div>
+                </div>
+                            </div>        </div>
+            </section>
+    <section id="soft">
+                <h2>Soft</h2>
+        <div class="items">
+                                <div class="item">
+                        <div class="nom">Coca-Cola</div>
+                        <div class="prix">3,70€</div>
+                    </div>
+                                        <div class="item">
+                        <div class="nom">Coca-Cola Zero</div>
+                        <div class="prix">3,70€</div>
+                    </div>
+                                        <div class="item">
+                        <div class="nom">Coca-Cola Chery</div>
+                        <div class="prix">3,70€</div>
+                    </div>
+                                        <div class="item">
+                        <div class="nom">Fanta Orange</div>
+                        <div class="prix">3,70€</div>
+                    </div>
+                                        <div class="item">
+                        <div class="nom">RedBull</div>
+                        <div class="prix">3,70€</div>
+                    </div>
+                                        <div class="item">
+                        <div class="nom">Orangina</div>
+                        <div class="prix">3,70€</div>
+                    </div>
+                                        <div class="item">
+                        <div class="nom">Fuze Tea</div>
+                        <div class="prix">3,70€</div>
+                    </div>
+                                        <div class="item">
+                        <div class="nom">Tropico</div>
+                        <div class="prix">3,70€</div>
+                    </div>
+                                        <div class="item">
+                        <div class="nom">Schweppes Agrum</div>
+                        <div class="prix">3,70€</div>
+                    </div>
+                                        <div class="item">
+                        <div class="nom">Schweppes Tonic</div>
+                        <div class="prix">3,70€</div>
+                    </div>
+                                        <div class="item">
+                        <div class="nom">Ginger Beer</div>
+                        <div class="prix">3,70€</div>
+                    </div>
+                                        <div class="item">
+                        <div class="nom">Perrier</div>
+                        <div class="prix">3,70€</div>
+                    </div>
+                                        <div class="item">
+                        <div class="nom">Limonade</div>
+                        <div class="prix">2,20€</div>
+                    </div>
+                                        <div class="item">
+                        <div class="nom">Sirop à l'eau</div>
+                        <div class="prix">2,20€</div>
+                    </div>
+                                        <div class="item">
+                        <div class="nom">Diabolo</div>
+                        <div class="prix">2,50€</div>
+                    </div>
+                                        <span class="s-j-t">Menthe - Grenadine - Fraise - Framboise - Cerise - Orgeat - Cassis - Banane - Kiwi - Violette - Pêche - Citron - Coco - Caramel</span>
+                                        <div class="item">
+                        <div class="nom">Jus de Fruits</div>
+                        <div class="prix">3,70€</div>
+                    </div>
+                                        <span class="s-j-t">Orange - Abricot - Ananas - Fraise - Pomme - Tomate</span>
+                        </section>
+    <section id="b-chaudes">
+                <h2>Boissons Chaudes</h2>
+        <div class="items">
+                                <div class="item">
+                        <div class="nom">Café</div>
+                        <div class="prix">1,60€</div>
+                    </div>
+                                        <div class="item">
+                        <div class="nom">Café Allongé</div>
+                        <div class="prix">1,60€</div>
+                    </div>
+                                        <div class="item">
+                        <div class="nom">Café Noisette</div>
+                        <div class="prix">1,60€</div>
+                    </div>
+                                        <div class="item">
+                        <div class="nom">Double Café</div>
+                        <div class="prix">3,20€</div>
+                    </div>
+                                        <div class="item">
+                        <div class="nom">Décaféiné</div>
+                        <div class="prix">1,60€</div>
+                    </div>
+                                        <div class="item">
+                        <div class="nom">Petit Crème</div>
+                        <div class="prix">2,50€</div>
+                    </div>
+                                        <div class="item">
+                        <div class="nom">Latte macchiato</div>
+                        <div class="prix">4,00€</div>
+                    </div>
+                                        <span class="s-j-t">Noisette - Vanille - Caramel - Orgeat</span>
+                                        <div class="item">
+                        <div class="nom">Café frappé</div>
+                        <div class="prix">4,00€</div>
+                    </div>
+                                        <span class="s-j-t">Noisette - Vanille - Caramel - Orgeat</span>
+                                        <div class="item">
+                        <div class="nom">Grand Crème</div>
+                        <div class="prix">3,50€</div>
+                    </div>
+                                        <div class="item">
+                        <div class="nom">Petit Chocolat</div>
+                        <div class="prix">2,50€</div>
+                    </div>
+                                        <div class="item">
+                        <div class="nom">Grand Chocolat</div>
+                        <div class="prix">3,50€</div>
+                    </div>
+                                        <div class="item">
+                        <div class="nom">Chocolat Viennois</div>
+                        <div class="prix">3,80€</div>
+                    </div>
+                                        <div class="item">
+                        <div class="nom">Thé au choix</div>
+                        <div class="prix">3,00€</div>
+                    </div>
+                                        <span class="s-j-t">Menthe - Jasmin - Earl Grey - Darjeeling - Ceylan Vanille - Caramels & Fleurs - Fruits Rouges</span>
+                        </section>
+    <span class="ligne-b"></span> <!--  End  -->
+</main>

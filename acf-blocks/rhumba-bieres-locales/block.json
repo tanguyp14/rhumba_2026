@@ -1,0 +1,26 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "acf/rhumba-bieres-locales",
+    "title": "Rhumba - Bi\u00e8res Locales",
+    "description": "Affiche la section bi\u00e8res locales de la carte Rhumba",
+    "icon": "<svg width=\"832\" height=\"771\" viewBox=\"0 0 832 771\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"> <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M70.9449 597.722L456.046 763.913L768.005 607.451L824.674 438.859L701.227 97.346L432.777 7.18085L7.47559 202.556L70.9449 597.722Z\" fill=\"#F8EADF\"/><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M63.4693 598.924L0 203.758L4.3163 195.674L429.62 0.296888L435.185 0L703.64 90.1668L708.346 94.7738L831.797 436.283L831.852 441.273L775.178 609.865L771.398 614.224L459.44 770.685L453.048 770.869L67.9459 604.678L63.4693 598.924ZM77.7611 592.415L455.806 755.561L761.822 602.077L816.656 438.951L695.353 103.363L433.213 15.3171L15.8641 207.04L77.7611 592.415Z\" fill=\"black\"/></svg>",
+    "category": "tylt",
+    "keywords": [
+        "rhumba",
+        "carte"
+    ],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "view.php"
+    },
+    "script": [
+        "rhumba_bieres_locales"
+    ],
+    "style": "file:assets/css/style.css",
+    "supports": {
+        "align": true,
+        "html": false,
+        "multiple": true
+    }
+}

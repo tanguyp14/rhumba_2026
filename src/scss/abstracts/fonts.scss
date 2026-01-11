@@ -1,5 +1,5 @@
 // Font Family
-$primary-font-family: var(--wp--preset--font-family--primary-font);
+$primary-font-family: 'Outfit', sans-serif;
 $secondary-font-family: var(--wp--preset--font-family--secondary-font);
 
 // Font Size
@@ -18,3 +18,5 @@ $heading-line-height: 1.2;
 /*@include declare-font-face("Libre Franklin", "../fonts/LibreFranklin-Regular");
 @include declare-font-face("Libre Franklin", "../fonts/LibreFranklin-Bold", 700);
 @include declare-font-face("Great Vibes", "../fonts/GreatVibes-Regular", 500);*/
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');

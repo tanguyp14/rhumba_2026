@@ -1,0 +1,257 @@
+{
+    "key": "group_nouveautes_biere",
+    "title": "Rhumba - Nouveautés Bière",
+    "fields": [
+        {
+            "key": "field_nouveautes_biere_group",
+            "label": "Nouveautés Bière",
+            "name": "nouveautes-biere",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "row",
+            "sub_fields": [
+                {
+                    "key": "field_nouveautes_biere_titre",
+                    "label": "Titre",
+                    "name": "titre",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Si vide n'affiche rien",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Nouveautés",
+                    "maxlength": "",
+                    "placeholder": "Nouvelles Bières",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_nouveautes_biere_sous_titre",
+                    "label": "Sous-titre",
+                    "name": "sous_titre",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "Bières en pression",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_nouveautes_biere_background",
+                    "label": "Background",
+                    "name": "background",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "preview_size": "thumbnail",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_nouveautes_biere_repeater",
+                    "label": "Bières",
+                    "name": "bieres",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "table",
+                    "pagination": 0,
+                    "min": 0,
+                    "max": 0,
+                    "collapsed": "",
+                    "button_label": "Ajouter une bière",
+                    "rows_per_page": 20,
+                    "sub_fields": [
+                        {
+                            "key": "field_biere_nom",
+                            "label": "Nom",
+                            "name": "nom",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "Jupiler",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "parent_repeater": "field_nouveautes_biere_repeater"
+                        },
+                        {
+                            "key": "field_biere_type",
+                            "label": "Type",
+                            "name": "type",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "Blonde",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "parent_repeater": "field_nouveautes_biere_repeater"
+                        },
+                        {
+                            "key": "field_biere_degres",
+                            "label": "Degrés",
+                            "name": "degres",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "5.2",
+                            "prepend": "",
+                            "append": "%",
+                            "maxlength": "",
+                            "parent_repeater": "field_nouveautes_biere_repeater"
+                        },
+                        {
+                            "key": "field_biere_bio",
+                            "label": "BIO",
+                            "name": "bio",
+                            "aria-label": "",
+                            "type": "true_false",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "",
+                            "default_value": 0,
+                            "ui": 1,
+                            "ui_on_text": "",
+                            "ui_off_text": "",
+                            "parent_repeater": "field_nouveautes_biere_repeater"
+                        },
+                        {
+                            "key": "field_biere_prix_25",
+                            "label": "Prix 25cl",
+                            "name": "prix_25",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "3.80",
+                            "prepend": "",
+                            "append": "€",
+                            "maxlength": "",
+                            "parent_repeater": "field_nouveautes_biere_repeater"
+                        },
+                        {
+                            "key": "field_biere_prix_50",
+                            "label": "Prix 50cl",
+                            "name": "prix_50",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "7.00",
+                            "prepend": "",
+                            "append": "€",
+                            "maxlength": "",
+                            "parent_repeater": "field_nouveautes_biere_repeater"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf/rhumba-nouveautes-biere"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 1
+}

@@ -1,0 +1,84 @@
+@import "../../../../src/scss/abstracts/all";
+
+.rhumba-cocktails {
+  background-image: url("../../../images/cocktails.png");
+  background-position-y: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  &__titre {
+    width: fit-content;
+    margin: auto;
+    padding: 20px 0;
+    color: $b-rhumba;
+    text-transform: uppercase;
+  }
+
+  &__categorie {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto 30px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__categorie-titre {
+    width: fit-content;
+    margin: 0 auto 15px;
+    color: $b-rhumba;
+    text-transform: uppercase;
+    font-size: clamp(1.5rem, 2vw, 3rem);
+  }
+
+  &__liste {
+    display: grid;
+    justify-items: stretch;
+    grid-row-gap: 5px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  &__item {
+    display: grid;
+    grid-column-gap: 10px;
+    align-items: center;
+  }
+
+  &__nom {
+    grid-row: 1;
+    grid-column: 1;
+    grid-column-end: 3;
+    text-align: left;
+    margin: 0;
+    font-size: clamp(1.2rem, 2vw, 2rem);
+    font-weight: 300;
+    color: $b-rhumba;
+  }
+
+  &__recette {
+    grid-row: 2;
+    grid-column: 1;
+    grid-column-end: 3;
+    text-align: left;
+  }
+
+  &__prix {
+    text-align: right;
+    grid-column: 3;
+    grid-row: 1;
+    grid-row-end: 3;
+    color: $black;
+    font-size: clamp(1.2rem, 2vw, 2rem);
+    font-weight: 300;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .rhumba-cocktails {
+    &__categorie {
+      width: 320px;
+    }
+  }
+}

@@ -505,6 +505,90 @@
                     "placeholder": ""
                 }
             ]
+        },
+        {
+            "key": "field_696393b46a9d6",
+            "label": "Sirops Chauds",
+            "name": "sirops_chauds",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "allow_in_bindings": 0,
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_696393c26a9d7",
+            "label": "Sirops Froids",
+            "name": "sirops_froids",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "allow_in_bindings": 0,
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_696393cb6a9d8",
+            "label": "Thès",
+            "name": "thes",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "allow_in_bindings": 0,
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_696393d06a9d9",
+            "label": "Jus",
+            "name": "jus",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "allow_in_bindings": 0,
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
         }
     ],
     "location": [
@@ -512,7 +596,7 @@
             {
                 "param": "options_page",
                 "operator": "==",
-                "value": "ng1"
+                "value": "theme-general-settings"
             }
         ]
     ],
@@ -525,5 +609,6 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1701352183
+    "display_title": "",
+    "modified": 1768133610
 }

@@ -19,6 +19,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
+	<script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+	<script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+
+
 	<?php wp_head(); ?>
 </head>
 
@@ -28,16 +32,16 @@
 		<a class="skip-link screen-reader-text visually-hidden" href="#main-content"><?php esc_html_e('Aller au contenu', 'TYLT'); ?></a>
 
 		<div class="hidden" hiddden>
-			<?php get_template_part( 'dist/img/sprite.svg' ); ?>
+			<?php get_template_part('dist/img/sprite.svg'); ?>
 		</div>
-		
+
 		<header id="masthead" class="header" role="banner">
 			<div class="container">
 				<div class="site-branding">
 					<?php the_custom_logo(); ?>
 				</div><!-- .site-branding -->
 
-				<?php get_template_part( 'template-parts/navigation/primary' ); ?>
+				<?php get_template_part('template-parts/navigation/primary'); ?>
 
 		</header><!-- #masthead -->
 

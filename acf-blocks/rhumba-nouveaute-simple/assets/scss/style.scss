@@ -1,0 +1,43 @@
+@import "../../../../src/scss/abstracts/all";
+
+.rhumba-nouveaute-simple {
+  padding: 0;
+
+  &__titre {
+    width: fit-content;
+    margin: auto;
+    padding: 20px 0;
+    color: $b-rhumba;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  &__content {
+    background-size: cover;
+    background-position: center;
+    padding: 3rem;
+    text-align: center;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 20px;
+  }
+
+  &__titre-nouveaute {
+    color: $b-rhumba;
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+    font-weight: 300;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  &__prix {
+    color: $black;
+    font-size: clamp(1.2rem, 2vw, 2rem);
+    font-weight: 300;
+    margin: 0;
+  }
+}
