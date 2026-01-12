@@ -61,12 +61,3 @@
   }
 }
 
-@media screen and (max-width: 370px) {
-  .rhumba-alcools {
-    &__categorie {
-      width: 320px;
-      grid-column: 1 !important;
-      grid-row: auto !important;
-    }
-  }
-}

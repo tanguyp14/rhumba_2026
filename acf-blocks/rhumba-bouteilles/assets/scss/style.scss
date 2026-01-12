@@ -114,22 +114,3 @@
     font-weight: 300;
   }
 }
-
-@media screen and (max-width: 370px) {
-  .rhumba-bouteilles {
-    &__container {
-      max-width: 100%;
-      padding: 0 10px;
-    }
-
-    &__header,
-    &__liste {
-      grid-template-columns: 1fr 50px 50px;
-      gap: 6px 8px;
-    }
-
-    &__nom {
-      word-break: break-word;
-    }
-  }
-}

@@ -91,23 +91,3 @@
   }
 }
 
-@media screen and (max-width: 370px) {
-  .rhumba-vins {
-    &__categorie {
-      width: 250px;
-
-      &:first-child {
-        .rhumba-vins__categorie-titre {
-          &::after {
-            content: "70cl";
-            left: 190px;
-          }
-
-          &::before {
-            left: 141px;
-          }
-        }
-      }
-    }
-  }
-}
